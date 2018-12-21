@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './rocklog.css';
+import './style.css';
 
 import Website from "./components/website/website";
 

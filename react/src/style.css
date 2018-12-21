@@ -1,0 +1,38 @@
+/* Custom Stylesheet */
+
+/* Force scroll bar */
+html {
+    overflow-y: scroll;
+}
+
+/* For sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.paginator {
+    display: inline;
+    /* float: right; */
+}
+
+.paginator-movie {
+    display: inline;
+    color: white;
+}
+
+.movie-box {
+    display: inline-block;
+    background: #333;
+    margin: 10px;
+    padding: 10px;
+}
+
+.movie-header {
+    color: white;
+}
